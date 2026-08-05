@@ -1,6 +1,6 @@
 # Chicago Public Safety ETL
 
-Chicago Public Safety ETL is a beginner-friendly data engineering project that uses Apache Airflow to manage an ETL pipeline. The pipeline collects public safety data from the City of Chicago, cleans and prepares the records, and loads the results into a PostgreSQL database. Apache Airflow schedules the pipeline and shows whether each run succeeds or fails.
+Chicago Public Safety ETL is a data engineering project that uses Apache Airflow to manage an ETL pipeline. The pipeline collects public safety data from the City of Chicago, cleans and prepares the records, and loads the results into a PostgreSQL database. Apache Airflow schedules the pipeline and shows whether each run succeeds or fails.
 
 ## How the Project Works
 
