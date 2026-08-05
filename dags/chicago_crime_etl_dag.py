@@ -14,7 +14,7 @@ def chicago_public_safety_etl():
 
     @task
     def run_chicago_etl():
-        from etl.etl import ETLPipeline
+        from etl.pipeline import ETLPipeline
 
         pipeline = ETLPipeline(limit=1000)
         processed_count = pipeline.run_pipeline()
