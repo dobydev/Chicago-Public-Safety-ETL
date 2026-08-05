@@ -1,0 +1,8 @@
+# Module for making HTTP requests
+requests==2.32.5
+
+# PostgreSQL database adapter for Python
+psycopg[binary]==3.2.10
+
+# Loading environment variables from .env file
+python-dotenv==1.1.1
