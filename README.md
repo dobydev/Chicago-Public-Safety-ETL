@@ -1,16 +1,6 @@
 # Chicago Public Safety ETL
 
-Chicago Public Safety ETL is a beginner-friendly data engineering project that uses Apache Airflow to manage an ETL pipeline. The pipeline collects public safety data from the City of Chicago, cleans and prepares the records, and loads the results into a PostgreSQL database.
-
-## What Is ETL?
-
-ETL stands for Extract, Transform, and Load:
-
-1. **Extract** – Collect data from the source.
-2. **Transform** – Clean the data and prepare it for storage.
-3. **Load** – Insert the transformed data into PostgreSQL.
-
-Apache Airflow schedules the pipeline and shows whether each run succeeds or fails.
+Chicago Public Safety ETL is a beginner-friendly data engineering project that uses Apache Airflow to manage an ETL pipeline. The pipeline collects public safety data from the City of Chicago, cleans and prepares the records, and loads the results into a PostgreSQL database. Apache Airflow schedules the pipeline and shows whether each run succeeds or fails.
 
 ## How the Project Works
 
@@ -109,7 +99,3 @@ docker compose logs --tail 150 airflow-worker
 ```bash
 docker compose down
 ```
-
-## Project Goal
-
-The goal of this project is to demonstrate a complete ETL workflow using tools commonly found in data engineering environments. It includes data extraction, transformation, database loading, workflow orchestration, containerization, task distribution, and pipeline monitoring.
